@@ -31,8 +31,12 @@ check_the_number(input("Enter the number "))
 #------------------------------------
 
 #Q2
-def arrange(numberList):
-    numberList.sort(reverse=True)
+def arrange(numberList:list):
+    for number in numberList:
+        if number == 0:
+            numberList.remove(number)
+            numberList.append(number)
+    #numberList.sort(reverse=True)
     return numberList
 
 print(arrange([8,0,4,0,5,8,8,0,4,8,0,5,8,4,0]))
