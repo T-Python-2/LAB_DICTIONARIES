@@ -1,9 +1,5 @@
 # Q1:Build a phone book program that receives the phone number, and returns the name of the owner.
 
-from textwrap import indent
-from tokenize import Number
-
-
 number_book = {"Amal": 11111, "Mohammed": 22222, "Khadijah": 33333, "Abdullah": 44444, "Rawan":  55555, "Faisal":  66666, "Layla": 77777}
 
 
